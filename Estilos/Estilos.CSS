@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.container-fluid{
+    background-color: rgb(71, 71, 71);
+    color: white;
+
+}
+
+.container-fluid img{
+    height: 60px;
+
+}
+.navbar-brand{
+    color: aliceblue;
+
+}
+
+#ComprarTicket{
+   color: rgb(41, 190, 41);
+   
+}
+#navbarSupportedContent{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+#navbarSupportedContent ul{
+    
+    align-items: flex-end;
+}
