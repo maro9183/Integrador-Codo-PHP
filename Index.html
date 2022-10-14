@@ -15,7 +15,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <div class="Justify-content-start">
-                    <img src="images/codoacodo.png" class="class="d-inline-block align-top"  alt="Responsive image">
+                    <img src="images/codoacodo.png" width="120" height="80" alt="Responsive image">
                   <a class="navbar-brand" href="#">Conf. Bs As</a>
                 </div>
                   
@@ -45,9 +45,178 @@
                 </div>
               </nav>
 
-              
-
+            
     </header>   
+    <!--Primer artículo Imagen-->
+            
+    <article>
+      
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      
+        <div class="carousel-inner">
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="display">Conf Bs As</h2>
+            <p>Bs As llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros de del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+
+            
+            <div class="botones-carousel">
+                
+                  <button type="button" class="btn btn-outline-secondary" id="boton-orador">Quiero ser orador</button>
+                
+              
+                
+                  <button type="button" class="btn btn-success" id="boton-ticket">Comprar tickets</button>
+                 
+            </div>
+            
+        </div>
+        
+          <div class="carousel-item active" id="img-ba1">
+            
+            <img src="https://github.com/maro9183/Integrador-Codo-PHP/blob/master/Images/ba1.jpg?raw=true" class="d-block w-100" alt="ba1">
+            
+
+          </div>
+          <div class="carousel-item" id="img-ba2">
+            
+            <img src="https://github.com/maro9183/Integrador-Codo-PHP/blob/master/Images/ba2.jpg?raw=true" class="d-block w-100" alt="ba2">
+            
+          </div>
+          <div class="carousel-item" id="img-ba3">
+            <img src="https://github.com/maro9183/Integrador-Codo-PHP/blob/master/Images/ba3.jpg?raw=true" class="d-block w-100" alt="ba3">
+            
+          </div>
+        </div>
+      
+    </article>
+   
+    </div>
+<!-- 2do articulo Oradores -->
+
+    <article>
+        <div class="container">
+          <div class="titulo-oradores">
+            <h6>Conoce a los</h6>
+            <h3>ORADORES</h3>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="Images/steve.jpg" class="card-img-top" alt="Steve">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Java Script</span>
+                  <span class="badge bg-primary">React</span>
+
+                  <h5 class="card-title">Steve Jobs</h5>
+                  <p class="card-text">Steven Paul Jobs​​​​ fue un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense.​</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Images/bill.jpg" class="card-img-top" alt="Bill Gates">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Java Script</span>
+                  <span class="badge bg-primary">React</span>
+                  <h5 class="card-title">Bill Gates</h5>
+                  <p class="card-text">William Henry Gates III es un magnate empresarial, desarrollador de software, inversor, autor y filántropo estadounidense.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="Images/ada.jpeg" class="card-img-top" alt="Ada">
+                <div class="card-body">
+                  <span class="badge bg-secondary">Negocios</span>
+                  <span class="badge bg-danger">Start up</span>
+                  <h5 class="card-title">Ada Lovelace</h5>
+                  <p class="card-text">Augusta Ada King, condesa de Lovelace, registrada al nacer como Augusta Ada Byron y conocida habitualmente como Ada Lovelace, fue una matemática y escritora británica</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          
+
+        </div>
+
+    </article>
+
+    <!-- Sección Honolulu -->
+
+    <section>
+      <div class="container-honolulu">
+        <div class="section2-image">
+          <img src="https://github.com/maro9183/Integrador-Codo-PHP/blob/master/Images/honolulu.jpg?raw=true" alt="Honolulu">
+        </div>
+        <div class="section2-text">
+          <h2>Bs As - Octubre</h2>
+          <p> Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 mk² de superficie).
+          </p>
+          <button type="button" class="btn btn-outline-secondary">Conocé más</button>
+        </div> 
+      </div>
+
+    </section>
+
+     <!-- Sección Convierte en un orador -->
+    <section>
+      <div class="form-orador">
+        <div class="titulo-form-orador">
+          <p>CONVIERTETE EN UN</p>
+          <h2>ORADOR</h2>
+        </div>
+        <form>
+            <p id="anotate">Anótate como orador para una <span> charla ignite</span>. Cuéntanos de qué quieres hablar!
+            </p>
+
+            <div class="mb-3a">
+                
+              
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Nombre">
+              <label for="exampleInputText" class="form-label"></label>
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Apellido" >
+              
+            </div>
+            <div id="comprar" class="mb-3b">
+              
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+            </div>
+            
+            <p>Recuerda incluir un título para tu charla</p>
+            
+            <button type="submit" class="btn btn-success" id="boton-form">Enviar</button>
+
+          
+        </form>
+
+      </div>   
+
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col colu"></div>
+          <div class="col colu"><p>Preguntas frecuentes</p></div>
+          
+            <div class="col colu"><p>Contáctanos</p></div>
+            <div class="col colu"><p>Prensa</p></div>
+            <div class="col colu"><p>Conferencia</p></div>
+            <div class="col colu"><p>Terminos y Condiciones</p></div>
+          <div class="col colu"><p>Privacidad</p></div>
+          
+          <div class="col colu"><p>Estudiantes</p></div>
+          <div class="col colu"></div>
+          
+        </div>
+
+      </div>
+   
+
+    </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" 
 integrity="sha384-
