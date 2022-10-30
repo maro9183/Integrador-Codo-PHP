@@ -8,8 +8,12 @@
 /*Nav*/
 
 .container-fluid{
-    background-color: rgb(71, 71, 71);
+    position: fixed;
+    z-index: 11;
+    background-color: rgb(68, 67, 67);
+    
     color: white;
+    top: 0px;
 
 }
 
@@ -35,7 +39,7 @@
 .carousel-caption {
     position: absolute; 
     
-    bottom: 125px; /* Cambiar bottom por top y los píxeles que necesites */
+    bottom: 195px; /* Cambiar bottom por top y los píxeles que necesites */
     left: 45%;
     z-index: 10;
     padding: 0;
@@ -217,3 +221,15 @@ footer .container{
 
 
 
+main{
+    margin: 62px 300px 0px 300px;
+}
+
+.cards{
+
+    margin-bottom: 10px;
+}
+
+.form-ticket{
+    margin-top: 10px;
+}
