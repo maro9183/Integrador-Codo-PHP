@@ -21,7 +21,7 @@ main{
     position: absolute;
     top:60px;
 
-    height: 500px;
+    
 }
 
 /*Cards*/
@@ -39,8 +39,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-   
+    word-wrap: break-word;  
+    height: 100%;
 }
 
 
@@ -53,24 +53,25 @@ main{
 
 .card-body p{
     text-align: center;
+    
 }
 
 .card-1{
     border: solid 1px blue;
-    height: 190px;
+   
     margin-left: 2px;
     
 }
 
 .card-2{
     border: solid 1px green;
-    height: 190px;
+    
     margin-left: 2px;
 }
 
 .card-3{
     border: solid 1px orange;
-    height: 190px;
+   
     margin-left: 2px;
 }
 
@@ -88,7 +89,7 @@ main{
 }
 
 .form-ticket{
-    margin: 0% 20% 0% 20%;
+    margin: 0% 15% 0% 15%;
     
 }
 
@@ -97,11 +98,12 @@ main{
     border-radius: 5px;
     border: solid 1px grey;
     background-color: rgb(35, 233, 216);
-    height: 40%;
-    display: flex;
-    align-items: center;
-   
+    
+    
+    
 }
+
+
 
 
 
@@ -116,6 +118,7 @@ main{
 footer{
     position: absolute;
     top: 700px;
-    height: 100px;
-    background-color: black;
+    display: flex;
+    vertical-align: middle;
+    background-image: linear-gradient(to right, #1C3643, #1E5372)
 }

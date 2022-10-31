@@ -1,4 +1,10 @@
+const botonCalc=document.getElementById('calcular')
 
+botonCalc.addEventListener('click',calculo)
+
+const botonRes=document.getElementById('reset')
+
+botonRes.addEventListener('click',reset)
     
 function calculo(){
     let cant=document.getElementById('Cantidad').value
@@ -25,13 +31,17 @@ function calculo(){
         let valor=cant*desc*precio
         
         document.getElementById('Total').innerText='Total a pagar: $'+Math.floor(valor)
-        document.getElementById('Cantidad').nodeValue=0
-        categoria='Estudiante'
+        
         
         
     }else
     document.getElementById('Total').innerText='Ingrese una cantidad mayor a "0" '
         //document.getElementById('Total').innerText('Ingrese la cantidad de tickets deseada')
 
+}
+
+function reset(){
+    document.getElementById('Total').innerText='Total a pagar: $'
+    
 }
 

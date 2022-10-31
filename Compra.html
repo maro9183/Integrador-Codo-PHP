@@ -57,20 +57,20 @@
         <!--Inicio Opciones compra cards-->
           <section class="opcionesCompraCards d-flex justify-content-center min-vw-100 ">
 
-            <div class="card-group text-wrap ">
-              <div class="card-1">
+            <div class="card-group  ">
+              <div class="card-1 ">
                 
                 <div class="card-body ">
-                  <h5 class="card-title fs-3 text-wrap">Estudiante</h5>
-                  <p class="card-text-desc text-wrap">Tienen un descuento</p>
-                  <p class="card-text-per fw-bold text-wrap">80%</p>
+                  <h5 class="card-title fs-3 ">Estudiante</h5>
+                  <p class="card-text-desc ">Tienen un descuento</p>
+                  <p class="card-text-per fw-bold ">80%</p>
 
                   <p class="card-text"><small class="text-muted">* Presentar documentación</small></p>
                 </div>
               </div>
               <div class="card-2">
                 
-                <div class="card-body">
+                <div class="card-body ">
                   <h5 class="card-title fs-3">Trainee</h5>
                   <p class="card-text">Tienen un descuento</p>
                   <p class="card-text-per fw-bold">50%</p>
@@ -79,7 +79,7 @@
               </div>
               <div class="card-3">
                 
-                <div class="card-body">
+                <div class="card-body ">
                   <h5 class="card-title fs-3">Junior</h5>
                   <p class="card-text">Tienen un descuento</p>
                   <p class="card-text-per fw-bold ">15%</p>
@@ -105,54 +105,59 @@
 
 
           <!--form-->
-          <div class="row form-ticket d-flex">
-                      
-            <div class="col">       
-              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Nombre">
-             </div> 
+          <div class="form-ticket ">
+            <form class="formu">
+              <div class="row">       
+                  <div class="col p-2">       
+                     <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Nombre">
+                  </div> 
       
-            <div class="col"> 
-              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Apellido" >
-             </div>    
-             
-            <div class="mt-1 c">
-              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Correo" >
-            </div> 
-
+                  <div class="col p-2"> 
+                      <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Apellido" >
+                  </div>    
+              </div> 
+            <div class="row">
+              <div class="col p-2">
+                <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp" placeholder="Correo" >
+              </div> 
+            </div>
             <!--Datos calculo-->
 
-            <div class="contenedor-calculo d-flex">
-              <div class=" col">
-                <p class="my-3">Cantidad</p>
-                 <input type="number" class="form-control" id="Cantidad" aria-describedby="textHelp" placeholder="Cantidad" aria-label="Cantidad">
-              </div> 
+            <div class="row contenedor-calculo d-flex">
               
+              <div class="col p-2">
               
-             
-              <div class="col ">
+                <p class="my-3 ">Cantidad</p>
+                 <input type="number" min="0" class="form-control" id="Cantidad" aria-describedby="textHelp" placeholder="Cantidad" aria-label="Cantidad">
+                                          
+              </div>
+              <div class="col p-2">
                 <p class="my-3">Categoría</p>
-              <select id="Categoría" class="form-select ">
+                    <select id="Categoría" class="form-select ">
                   
-                  <option value="Estudiante">Estudiante</option>
-                  <option value="Trainee">Trainee</option>
-                  <option value="Junior">Junior</option>
-               </select> 
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                    </select> 
               </div>
               
            
             </div>
-            <div class="contenedor-botones my-3 ">
-                <div class="col resumen ">
-                   <p class="ms-2 m-0 " id="Total">Total a pagar: $ </p>
-                                       
-               </div>
-
-               <div class="botones d-flex space-between mt-5">
-                <button class="btn btn-primary btn-lg col-6 me-1">Borrar</button>
-                <button class="btn btn-primary btn-lg col-6 ms-1" onclick="calculo()">Resumen</button>
+           
+            <div class="row ">
+              <div class="col p-2">
+                 <div class="col p-2" id="Total">Total a pagar: $ </div>
+                                     
+                </div>
+            </div>
+            <div class="row">
+               <div class="botones d-flex space-between mt-2">
+                    <input type="reset" class="btn btn-primary btn-lg col-6 me-1 " id="reset"></button>
+                    <button class="btn btn-primary btn-lg col-6 ms-1" type="button" id="calcular">Resumen</button>
                </div>
             </div>
-
+            
+          </form>
 
           </section>
           <!--Fin formulario-->
@@ -163,8 +168,8 @@
         <!--Inicio Footer-->
 
         <footer>
-          <ul class="nav justify-content-center mt-2 pb-3 mb-3 min-vw-100 p-0">
-            <li class="nav-item"> <a href="" class="nav-link mx-2 text-muted">Preguntas frecuentes</a> </li>
+          <ul class="nav justify-content-center mt-2 mb-3 min-vw-100 p-0 text-wrap">
+            <li class="nav-item text-wrap"> <a href="" class="nav-link mx-2 text-muted">Preguntas frecuentes</a> </li>
             <li class="nav-item"> <a href="" class="nav-link mx-2 text-muted">Contáctanos</a> </li>
             <li class="nav-item"> <a href="" class="nav-link mx-2 text-muted">Prensa</a> </li>
             <li class="nav-item"> <a href="" class="nav-link mx-2 text-muted">Conferencia</a> </li>
