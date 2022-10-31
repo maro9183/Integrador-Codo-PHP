@@ -72,11 +72,18 @@
     border: white solid 1px;
 
 }
+
+#boton-ticket a {
+    text-decoration: none;
+    color: white;
+}
 #boton-ticket{
+    
     background-color: green;
     border: green solid 1px;
     margin-left: 10px;
 }
+
 
 
 
